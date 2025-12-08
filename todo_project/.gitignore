@@ -1,0 +1,43 @@
+# Ignore common files and directories
+
+# Python cache and virtual environment
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+venv/
+virtualenv/
+*.venv
+env/
+
+# IDE and editor specific files
+.vscode/
+.idea/
+*.iml
+*.ipr
+*.iws
+.DS_Store
+
+# OS specific files
+Thumbs.db
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
+
+# Logs
+*.log
+
+# Environment variables
+.env
+
+# Test artifacts
+.pytest_cache/
+
+# Specific to Next.js (if used)
+.next/
+
+# Specific to Dapr (if used)
+.dapr/

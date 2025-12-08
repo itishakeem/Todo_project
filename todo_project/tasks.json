@@ -1,0 +1,13 @@
+[
+    {
+        "id": 1,
+        "description": "morning exercise",
+        "status": "completed",
+        "priority": "medium",
+        "tags": [
+            "home workout"
+        ],
+        "due_date": null,
+        "created_at": "2025-12-09T00:21:16.325594"
+    }
+]

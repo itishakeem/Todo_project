@@ -1,0 +1,7 @@
+# Phase 1: Console Application - Requirements
+# Python 3.13+ (uses standard library only, no external dependencies)
+
+# Testing (optional, for development)
+pytest>=7.4.0
+pytest-cov>=4.1.0
+
