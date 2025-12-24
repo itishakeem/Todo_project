@@ -1,7 +1,13 @@
-# Phase 1: Console Application - Requirements
-# Python 3.13+ (uses standard library only, no external dependencies)
+# Phase 1: Console Application
+pytest==7.4.3
+pytest-cov==4.1.0
 
-# Testing (optional, for development)
-pytest>=7.4.0
-pytest-cov>=4.1.0
-
+# Phase 2: FastAPI Web Application
+fastapi==0.115.0
+uvicorn[standard]==0.32.0
+sqlmodel==0.0.22
+psycopg2-binary==2.9.10
+python-jose[cryptography]==3.3.0
+passlib[bcrypt]==1.7.4
+python-dotenv==1.0.1
+pydantic-settings==2.6.1

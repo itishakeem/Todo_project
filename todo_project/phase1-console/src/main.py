@@ -45,7 +45,7 @@ def get_due_date_input():
 
 def main():
     print("="*80)
-    print("Welcome to the Enhanced Console Todo App!")
+    print("Welcome to Task Manager!")
     print("="*80)
     task_manager = tasks.TaskManager()
 
